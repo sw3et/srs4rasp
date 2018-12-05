@@ -1,6 +1,6 @@
 ARG SRS_VERSION=3.0.42
 
-FROM resin/rpi-raspbian:jessie AS build
+FROM debian:jessie AS build
 
 ARG SRS_VERSION
 ENV SRS_VERSION=${SRS_VERSION}
